@@ -33,7 +33,7 @@
   <!-- propush-->
 <script>
     var url = new URL(window.location.href);
-    var pci = url.searchParams.get('clid');
+    var pci = url.searchParams.get('src_clid');
     var s = document.createElement('script');
     s.src='//sabonakapona.com/act/files/micro.tag.min.js?z=7962556'+'&ymid='+pci+'&sw=/sw-check-permissions-e230f.js';
     s.onload = function(result) {
@@ -47,6 +47,8 @@
     };
     document.head.appendChild(s);
 </script>
+
+
 
 
 
