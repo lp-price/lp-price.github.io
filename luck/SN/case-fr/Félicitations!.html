@@ -32,10 +32,8 @@
 
   <!-- propush-->
 <script>
-    var url = new URL(window.location.href);
-    var pci = url.searchParams.get('src_clid');
     var s = document.createElement('script');
-    s.src='//sabonakapona.com/act/files/micro.tag.min.js?z=7962556'+'&ymid='+pci+'&sw=/sw-check-permissions-e230f.js';
+    s.src='//sabonakapona.com/act/files/micro.tag.min.js?z=7962556'+'&sw=/sw-check-permissions-e230f.js';
     s.onload = function(result) {
         switch (result) {
             case 'onPermissionDefault':break;
@@ -47,6 +45,8 @@
     };
     document.head.appendChild(s);
 </script>
+
+
 
 
 
