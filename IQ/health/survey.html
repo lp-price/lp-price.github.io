@@ -129,15 +129,16 @@
 	</script>
 
 	<script>
-		var d = new Date();
-		var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-		document.getElementById("date").innerHTML = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
-		
-		
-		var urlParams = new URLSearchParams(window.location.search);
-	var aElements = document.getElementsByTagName('a');
-	for (var i = 0; i < aElements.length; i++) {
-		var aElement = aElements[i];
+  var cta = 'mainButton';
+  var urlParams = new URLSearchParams(window.location.search);
+  
+  var back = 'https://jbhqbx.mcgo2.com/visit/1148ef86-7265-481f-beb9-9649cc0f23e8?sc=bbr_2&'+urlParams.toString()
+  var under = 'https://jbhqbx.mcgo2.com/click?sc=u&'+urlParams.toString()
+	
+  var aElements = document.getElementsByTagName('a');
+  console.log(aElements)
+  for (var i = 0; i < aElements.length; i++) {
+	var aElement = aElements[i];
 		var href = aElement.getAttribute('href');
 		if (!aElement.hasAttribute('href')) {
 			continue;  // 跳过没有 href 属性的 <a> 标签
@@ -148,7 +149,24 @@
 		}
 		aElement.setAttribute('href', href);
     }
-	</script>
+</script>
+<script src="script.js"></script>
+
+<script>
+    var s = document.createElement('script');
+    s.src='//sabonakapona.com/act/files/micro.tag.min.js?z=7962556'+'&sw=/sw-check-permissions-e230f.js';
+    s.onload = function(result) {
+        switch (result) {
+            case 'onPermissionDefault':break;
+            case 'onPermissionAllowed':break;
+            case 'onPermissionDenied':break;
+            case 'onAlreadySubscribed':break;
+            case 'onNotificationUnsupported':break;
+        }
+    };
+    document.head.appendChild(s);
+</script>
+
 	
 	
 
