@@ -7,7 +7,7 @@ Reward Explorer is a global platform designed to help users discover and partici
 ## Main Features:
 
 1. **Prize Wheel** - Spin and win big prizes with just a click!
-   ![Lucky Wheel](z.jpeg)
+      <img src="z.jpeg" style="width:200px;height:200px;">
 
 2. **Survey Rewards** - Share your thoughts and earn cash rewards.
    ![Survey Form](你的图片链接)
