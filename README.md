@@ -1,6 +1,6 @@
 # Welcome to Reward Explorer
 
-![Logo](你的图片链接)
+<img src="logo.jpeg" style="width:100px;height:100px;">
 
 Reward Explorer is a global platform designed to help users discover and participate in various reward activities. Whether you enjoy the thrill of spinning a prize wheel, earning cash rewards by filling out surveys, or are passionate about guessing games, we have activities that suit you.
 
@@ -10,15 +10,20 @@ Reward Explorer is a global platform designed to help users discover and partici
    
    Spin and win big prizes with just a click!
    
-   <img src="z.jpeg" style="width:200px;height:200px;">
+   <img src="z.jpeg" style="width:150px;height:150px;">
 
-3. **Survey Rewards** - Share your thoughts and earn cash rewards.
-   ![Survey Form](你的图片链接)
+2. **Survey Rewards**
+   Share your thoughts and earn cash rewards.
 
-4. **Betting Wins** - Predict event outcomes and win substantial prizes.
-   ![Betting Game](你的图片链接)
+   <img src="s.jpeg" style="width:150px;height:150px;">
 
-5. **More Reward Paths** - We continuously update to bring you more opportunities to earn rewards.
+3. **Betting Wins**
+   Predict event outcomes and win substantial prizes.
+   
+   <img src="c.jpeg" style="width:150px;height:150px;">
+
+4. **More Reward Paths**
+    We continuously update to bring you more opportunities to earn rewards.
 
 ## How to Participate:
 
