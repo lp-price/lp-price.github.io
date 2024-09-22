@@ -13,16 +13,19 @@ Reward Explorer is a global platform designed to help users discover and partici
    <img src="z.jpeg" style="width:150px;height:150px;">
 
 2. **Survey Rewards**
+   
    Share your thoughts and earn cash rewards.
 
    <img src="s.jpeg" style="width:150px;height:150px;">
 
-3. **Betting Wins**
+4. **Betting Wins**
+   
    Predict event outcomes and win substantial prizes.
    
    <img src="c.jpeg" style="width:150px;height:150px;">
 
-4. **More Reward Paths**
+6. **More Reward Paths**
+   
     We continuously update to bring you more opportunities to earn rewards.
 
 ## How to Participate:
