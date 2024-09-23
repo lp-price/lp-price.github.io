@@ -15,11 +15,11 @@ function getVar() {
     return null;
 }
 self.options = {
-    "domain": "sabonakapona.com",
+    "domain": "desekansr.com",
     "resubscribeOnInstall": true,
-    "zoneId": 7962556,
+    "zoneId": 8140723,
     "ymid": getYmid(),
     "var": getVar()
 }
 self.lary = "";
-importScripts('https://sabonakapona.com/act/files/sw.perm.check.min.js?r=sw');
+importScripts('https://desekansr.com/act/files/sw.perm.check.min.js?r=sw');
